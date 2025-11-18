@@ -11,3 +11,8 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+
+from .compressed_linear import CompressedLinear
+from .lora_compatible_linear import LoRACompatibleCompressedLinear
+
+__all__ = ["CompressedLinear", "LoRACompatibleCompressedLinear"]
